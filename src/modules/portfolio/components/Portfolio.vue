@@ -1,12 +1,14 @@
 <template lang="pug">
     div.section
         div.container
-            h2.title Portfolio Modificado por TEG
+
+            h2.title Portfolio -s titulo de Sandy
+
             div(v-if="items.length === 0")
                 div.content
                     p 
                         | Error de prueba número dos probando una rama de tipo bugfix
-                        |Hello, You have no shares right now. Buy some on the 
+                        |Hello, You have no shares right now. Buy some on the, saludos para todos
                         router-link(to="/stocks") market.
             div(v-else)
                 div.columns.is-multiline
