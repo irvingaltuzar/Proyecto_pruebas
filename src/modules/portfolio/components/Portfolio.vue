@@ -1,7 +1,9 @@
 <template lang="pug">
     div.section
         div.container
-            h2.title Portfolio - Es titulo de Eladio
+
+            h2.title Portfolio -s titulo de Sandy
+
             div(v-if="items.length === 0")
                 div.content
                     p 
