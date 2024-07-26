@@ -1,13 +1,9 @@
 <template lang="pug">
     div.section
         div.container
-<<<<<<< HEAD
-            h2.title Portfolio Modificado por TEG
-=======
 
-            h2.title Portfolio -s titulo de Sandy
+            h2.title Portfolio 
 
->>>>>>> 64de6284c7c374ed2328e394f4595003d970c5e8
             div(v-if="items.length === 0")
                 div.content
                     p 
