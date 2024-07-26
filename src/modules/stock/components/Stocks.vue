@@ -1,7 +1,6 @@
 <template lang="pug">
     div.section
-        div.container
-            h2.title Stocks
+        div.container DMI
             h4 Aqui se muestran todos los stock que han sido guardados.
             div.columns.is-multiline
                 div.column.is-half(v-for="asset in items")

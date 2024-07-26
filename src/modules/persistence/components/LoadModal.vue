@@ -2,7 +2,7 @@
     transition(name="fade" mode="out-in")
         modal(v-if="show", :onClose="cancelLoad", :active="show")
             div.box
-                h2.title.is-3 Load
+                h2.title.is-3 Load DMI
                 h3.subtitle.is-6 Choose a save from the table below. Just click on the desired row to go back to selected game state.
                 table.table.is-striped.is-hoverable.is-fullwidth
                     thead

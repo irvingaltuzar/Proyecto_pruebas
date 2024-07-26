@@ -2,12 +2,12 @@
     div.section
         div.container
 
-            h2.title Portfolio 
+            h2.title Portfolio DMI
 
             div(v-if="items.length === 0")
                 div.content
                     p 
-                        | Error de prueba número dos probando una rama de tipo bugfix
+                        | Probando area de stage 
                         |Hello, You have no shares right now. Buy some on the, saludos para todos
                         router-link(to="/stocks") market.
             div(v-else)
